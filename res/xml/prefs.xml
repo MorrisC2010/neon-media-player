@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference
+     android:entries="@array/style_Options"
+     android:entryValues="@array/style_Values"
+     android:key="stylepref"
+     android:summary="Change Style of Visualizer"
+     android:title="Visualizer Style" />
+  <ListPreference
+     android:entries="@array/colors_Options"
+     android:entryValues="@array/colors_Values"
+     android:key="colorpref"
+     android:summary="Change Color of Visualizer"
+     android:title="Visualizer Colors" />
+   <ListPreference
+     android:entries="@array/repeat_Options"
+     android:entryValues="@array/repeat_Values"
+     android:key="repeatpref"
+     android:summary="Toggle Repeat: Off/One/All"
+     android:title="Repeat Options" />
+   <ListPreference
+     android:entries="@array/shuffle_Options"
+     android:entryValues="@array/shuffle_Values"
+     android:key="shufflepref"
+     android:summary="Toggle Shuffle: On/Off"
+     android:title="Shuffle Options" />
+</PreferenceScreen>
